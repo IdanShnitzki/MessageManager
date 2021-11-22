@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageManagerService", "MessageManagerService\MessageManagerService.csproj", "{46C058A8-25AF-4139-9671-6C12D595845D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageManagerUnitTesting.cs", "MessageManagerUnitTesting.cs\MessageManagerUnitTesting.cs.csproj", "{1EF2DC27-1AA8-463B-9589-AE8320D0AC50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{46C058A8-25AF-4139-9671-6C12D595845D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46C058A8-25AF-4139-9671-6C12D595845D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46C058A8-25AF-4139-9671-6C12D595845D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF2DC27-1AA8-463B-9589-AE8320D0AC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF2DC27-1AA8-463B-9589-AE8320D0AC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF2DC27-1AA8-463B-9589-AE8320D0AC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF2DC27-1AA8-463B-9589-AE8320D0AC50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

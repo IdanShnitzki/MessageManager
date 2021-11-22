@@ -21,8 +21,8 @@
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
-      //"launchUrl": "swagger",
-      "launchUrl": "api/MessagesManager",
+      "launchUrl": "swagger",
+      //"launchUrl": "api/MessagesManager",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

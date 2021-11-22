@@ -11,6 +11,8 @@ namespace MessageManagerService.Profiles
             CreateMap<Message, MessageReadDto>();
             CreateMap<MessageCreateDto, Message>();
             CreateMap<MessageUpdateDto, Message>();
+            CreateMap<Message, MessageUpdateDto>();
+            CreateMap<Message, MessageCreateDto>();
         }
     }
 }
