@@ -29,10 +29,9 @@ namespace MessageManagerService
         {
 
             services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
-
             services.AddScoped<IMessageRepo, MessageRepo>();
-
             services.AddControllers();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MessageManagerService", Version = "v1" });
