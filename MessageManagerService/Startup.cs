@@ -57,6 +57,8 @@ namespace MessageManagerService
             {
                 endpoints.MapControllers();
             });
+
+            PrepDb.PrepPopulation(app);
         }
     }
 }
